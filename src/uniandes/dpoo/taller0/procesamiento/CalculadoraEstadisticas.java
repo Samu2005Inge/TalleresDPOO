@@ -78,10 +78,8 @@ public class CalculadoraEstadisticas
 		String paisA="pais";
 		for(Atleta competidor : atletas )
 		{
-			System.out.println(competidor.darNombre());
 			if (nombreA==competidor.darNombre())
 			{
-				System.out.println("hola");
 				paisA=competidor.darPais().darNombre();
 			}
 		}
